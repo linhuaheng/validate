@@ -21,11 +21,8 @@ public class StrategyFactory {
 
     static{
         strategyMap.put(ParameterType.NUMBER.getValue(),new NumberStrategy());
-        strategyMap.put(ParameterType.INTEGER.getValue(),new IntegerStrategy());
         strategyMap.put(ParameterType.DECIMAL.getValue(),new DecimalStrategy());
         strategyMap.put(ParameterType.EMAIL.getValue(),new EmailStrategy());
-        strategyMap.put(ParameterType.DTAE.getValue(),new DateStrategy());
-        strategyMap.put(ParameterType.CONTACTNUMBER.getValue(),new ContactnumberStrategy());
         strategyMap.put(ParameterType.MOBILE.getValue(),new MobileStrategy());
         strategyMap.put(ParameterType.PHONE.getValue(),new PhoneStrategy());
         strategyMap.put(ParameterType.STRING.getValue(),new StringStrategy());
